@@ -26,7 +26,6 @@ echo "[!] Starting timer to change visibility to public on repo: $repoName"
 
 while [ : ]; do
   currenttime=$(date +%H%M%S);
-  echo $specifiedTime
   comparison=$(($endtime-$currenttime))
   if [ $comparison -eq 0 ]
   then
