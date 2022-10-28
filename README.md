@@ -13,3 +13,6 @@ This script will change the github repo visibility at specific time so that we d
 sh .\changeVisibility.sh
 ```
 - Note: This tool will not check on whether your input format is correct or not in depth, therefore this will depend on your input for it to work.
+
+## Condition
+Have to be within 24 hrs.
